@@ -1,0 +1,10 @@
+{
+    "name": "haris/package",
+    "authors": [
+        {
+            "name": "hariskhalil",
+            "email": "haris.khalil@stackupsolutions.com"
+        }
+    ],
+    "require": {}
+}
