@@ -42,7 +42,7 @@ class SpreadSheetController extends Controller
     {
         $dimensions = $this->getDimensions($this->spreadSheetId);
         $values = [
-            [ $dimensions['rowCount'],$request->name, $request->company],
+            [ 2,$request->name],
         ];
         $body = new Google_Service_Sheets_ValueRange([
             'values' => $values

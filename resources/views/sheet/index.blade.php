@@ -67,12 +67,9 @@
                         <form method="POST" action="send-sheet-data">
                             @csrf
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Name</label>
-                                <input type="text" class="form-control" name="name" id="exampleFormControlInput1"
+                                <label for="exampleFormControlInput1">value</label>
+                                <input type="number" class="form-control" name="name" id="exampleFormControlInput1"
                                     placeholder="name">
-                                <label for="exampleFormControlInput1">Company</label>
-                                <input type="text" class="form-control" name="company" id="exampleFormControlInput1"
-                                    placeholder="company">
                             </div>
                             <input type="submit" class=" mt-2 btn btn-primary">
                         </form>
@@ -90,7 +87,7 @@
 
                         <div class="card-header bgsize-primary-4 white card-header">
 
-                            <h4 class="card-title">Customer Data Table</h4>
+                            <h4 class="card-title">Data Table</h4>
 
                         </div>
 
@@ -102,9 +99,9 @@
 
                                     <thead>
 
-                                        <th scope="col">#</th>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Company</th>
+                                        <th scope="col">value</th>
+                                        <th scope="col">value</th>
+                                        <th scope="col">sum</th>
 
                                     </thead>
 
